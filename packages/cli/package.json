@@ -1,0 +1,17 @@
+{
+  "name": "@byron/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "node ./lib/main.js",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@byron/commands": "^1.0.0",
+    "minimist": "^1.2.0"
+  }
+}
