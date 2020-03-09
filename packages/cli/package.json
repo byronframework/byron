@@ -11,7 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@byron/commands": "^1.0.0",
-    "minimist": "^1.2.0"
+    "@byron/commands": "^1.0.0"
   }
 }
