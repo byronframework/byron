@@ -11,6 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@byron/commands": "^1.0.0"
+    "@byron/generators": "^1.0.0"
   }
 }

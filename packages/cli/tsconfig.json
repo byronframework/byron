@@ -4,5 +4,5 @@
     "rootDir": "src",
     "outDir": "lib"
   },
-  "references": [{ "path": "../commands" }]
+  "references": [{ "path": "../generators" }]
 }
