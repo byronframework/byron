@@ -1,4 +1,5 @@
 {
+  "name": "@byronframework/byron",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
@@ -6,6 +7,9 @@
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib",
     "start": "lerna run start"
+  },
+  "bin": {
+    "byron": "packages/cli/lib/main.js"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",

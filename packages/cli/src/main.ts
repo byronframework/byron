@@ -1,3 +1,12 @@
-import { awesomeFn } from "@byron/commands";
+#!/usr/bin/env node
 
-awesomeFn();
+import yargs, { Argv } from "yargs";
+
+yargs
+  .commandDir("commands", {
+    visit(commandModule: any): any {
+      return commandModule.default;
+    }
+  })
+  .demandCommand()
+  .help().argv;

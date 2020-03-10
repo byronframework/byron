@@ -11,6 +11,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@byron/generators": "^1.0.0"
+    "@byron/generators": "^1.0.0",
+    "yargs": "^15.3.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.4"
   }
 }
